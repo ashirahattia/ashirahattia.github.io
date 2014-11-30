@@ -15,6 +15,7 @@ body {
     display: flex; 
     align-items: center;
     justify-content: center;
+    -webkit-flex-flow: column;
     flex-flow: column;
     margin: 0;
     font-family: Merriweather;
@@ -89,6 +90,7 @@ a.menu:LINK, a.menu:VISITED {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;
     display: flex;
+    -webkit-flex-flow: column;
     flex-flow: column;
     align-items: center;
     justify-content: center;
@@ -125,6 +127,7 @@ a.menu:LINK, a.menu:VISITED {
     AND BACKGROUND COLOR */
     #landing {
         background-color: #F4F1EA;
+        -webkit-flex-flow: column;
         flex-flow: column;
     }
 
@@ -158,6 +161,7 @@ a.menu:LINK, a.menu:VISITED {
 
     #specialty {
         background-color: #C69060;
+        -webkit-flex-flow: column;
         flex-flow: column;
     }
 
