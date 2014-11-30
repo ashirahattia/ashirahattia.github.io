@@ -12,7 +12,7 @@ a.nav:LINK, a.nav:VISITED {
 
 .container {
     flex-flow: column;
-    -webkit-flex-flow: row-reverse wrap;
+    -webkit-flex-flow: column;
 }
 
 .teastats, .teainfo {
