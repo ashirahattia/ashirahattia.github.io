@@ -1,4 +1,8 @@
 $(document).ready(function(){
-    $('#dearjon').fadeIn(300);
-    $('#letter').fadeIn(300);
+
+    $(window).load(function(){ 
+        $('#dearjon').fadeIn(2000);
+        $('#letter').delay(500).fadeIn(2000);
+    });
+
 });
