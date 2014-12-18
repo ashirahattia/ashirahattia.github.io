@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
     $(window).load(function(){ 
-        $('#dearjon').fadeIn(2000);
-        $('#letter').delay(500).fadeIn(2000);
+        $('#letter').delay(200).fadeIn(2000);
+        $('#dearjon').delay(800).fadeIn(2000);
     });
 
 });
