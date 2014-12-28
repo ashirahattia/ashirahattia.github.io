@@ -176,7 +176,7 @@ a.workbutton:HOVER {
 @media (max-width: 600px) {
     a.workbutton:LINK, a.workbutton:VISITED {;
         color: #F5F4BE;
-        padding: 8px;
+        padding: 12px;
         border: 2px #F5F4BE solid;
         font-size: 8pt;
     }
