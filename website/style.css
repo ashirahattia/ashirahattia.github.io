@@ -191,6 +191,10 @@ a.workbutton:HOVER {
       padding: 20px;
     }
 
+    .header {
+      font-size: 24pt;
+    }
+
     #navigation {
       text-align: center;
     }
