@@ -169,7 +169,7 @@ a.workbutton:HOVER {
 
 } 
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   	a.workbutton:LINK, a.workbutton:VISITED {;
   	    color: #F5F4BE;
   	    padding: 10px;
@@ -190,9 +190,9 @@ a.workbutton:HOVER {
   	#navigation {
   		text-align: center;
   	}
-} 
+} */
 
-@media (max-width: 300px) {
+@media (max-width: 600px) {
     a.workbutton:LINK, a.workbutton:VISITED {;
         color: #F5F4BE;
         padding: 8px;
@@ -206,7 +206,7 @@ a.workbutton:HOVER {
 
     .title {
       font-size: 30pt;
-      line-height: 30pt;
+      line-height: 0pt;
       padding: 20px;
     }
 
