@@ -1,0 +1,20 @@
+/*Additional sizing for small screens */
+
+.title {
+    font-size: 36pt;
+    line-height: 40pt;
+}
+
+a.nav:LINK, a.nav:VISITED {
+    font-size: 10pt;
+    padding: 5px;
+}
+
+.container {
+	-webkit-flex-flow: column;
+    flex-flow: column;
+}
+
+.teastats, .teainfo {
+    padding: 30px;
+}

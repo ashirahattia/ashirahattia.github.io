@@ -1,0 +1,201 @@
+/* STYLESHEET FOR TEA TIME */
+
+/* GENERAL STYLES */
+html {
+    height: 100%;
+}
+
+body {
+    color: #302E2B;
+    font-size: 11pt;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    margin: 0;
+    font-family: Merriweather;
+}
+
+ /* IMAGES */
+.two, #twoFade {
+    max-width: 200px;
+}
+
+.one {
+    max-width: 60px;
+}
+
+.special {
+    max-width: 120px;
+}
+
+/* HEADERS */
+.title, .subtitle, .header {
+    font-family: Oswald;
+    text-transform: uppercase; 
+}
+
+.title {
+    font-size: 56pt;
+    line-height: 60pt; 
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 36pt;
+}
+
+.header {
+    font-size: 18pt;
+    margin-bottom: -10px;
+}
+
+/* LINKS */
+a:LINK, a:VISITED {
+    text-decoration: none;
+    transition: linear 0.2s;
+    -webkit-transition:opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+}
+a:HOVER {
+    opacity: 0.5;
+}
+
+a.menu:LINK, a.menu:VISITED, a.nav:LINK, a.nav:VISITED {
+    font-family: Oswald;
+    text-transform: uppercase;
+    color: #302E2B;
+    padding: 15px;
+    font-size: 14pt;
+}
+
+a.menu:LINK, a.menu:VISITED {
+    display: block;
+}
+
+
+/* CONTAINERS */
+.footer {
+    background-color: #F4F1EA;
+    height: 300px;
+    width: 100%;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-content {
+    text-align: center;
+}
+
+ #navigation {
+    position: fixed;
+    display:none;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #F4F1EA;
+}
+
+.container {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+    /* IDS FOR NAVIGATION 
+    AND BACKGROUND COLOR */
+    #landing {
+        background-color: #F4F1EA;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+
+    #green, #rooibos, #black, #puerh {
+        color: #F4F1EA;
+    }
+
+    #herbal {
+        background-color: #F2D768;
+    }
+
+    #white {
+        background-color: #FFF;
+    }
+
+    #green {
+        background-color: #879F74;
+    }
+
+    #rooibos {
+        background-color: #AD4E36;
+    }
+
+    #black {
+        background-color: #474543;
+    }
+
+    #puerh {
+        background-color: #323A2D;
+    }
+
+    #specialty {
+        background-color: #C69060;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+
+
+/* CONTENT */
+
+    /* LANDING */
+
+    .item {
+        display: inline-block;
+        min-width: 80px;
+        margin: 15px;
+    }   
+
+    .teastats {
+        max-width: 200px;
+        padding: 15px;
+    }
+    
+    .teainfo {
+        max-width: 500px;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .specialty-row {
+        padding-top: 30px;
+    }
+
+    .specialty-item {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 200px;
+        padding: 20px;
+    }
+
+
