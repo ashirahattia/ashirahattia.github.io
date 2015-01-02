@@ -2,9 +2,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 500) {
-            $('#navigation').fadeIn(100);
+            $('#navigation').fadeIn(300);
         } else {
-            $('#navigation').fadeOut(100);
+            $('#navigation').fadeOut(300);
         }
     });
 
@@ -19,18 +19,5 @@ $(document).ready(function(){
          return false;
         }
       }
-    });
-
-    $('#footer-content').hover(function() {
-        $('body').css('cursor','pointer');
-    });
-
-    $('#specialty').hover(function() {
-        $('body').css('cursor', 'auto');
-    });
-
-    $('#footer-content').click(function() {
-        $(this).text("Website built by Angira Shirahatti for the Web Design Decal, Fall 2014");
-        $('body').css('cursor','auto');
     });
 });

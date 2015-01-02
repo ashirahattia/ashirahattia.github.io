@@ -1,25 +1,25 @@
 body, html {
-    font-family: "Merriweather", serif;
-    color: #302E2B;
-    margin: 0;
-    width: 100%;
-    height: 100%;
+	font-family: "Merriweather", serif;
+	color: #302E2B;
+	margin: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #navigation {
-    width: 100%;
-    min-height: 40px;
-    position: fixed;
-    z-index: 99;
-    text-align: center;
-    background-color: #F4F1EA;
-    display: none;
-    padding-top: 10px;
+	width: 100%;
+	min-height: 40px;
+	position: fixed;
+	z-index: 99;
+	text-align: center;
+	background-color: #F4F1EA;
+	display: none;
+	padding-top: 10px;
 }
 
 .container {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -67,62 +67,62 @@ body, html {
 /* Content Formatting */
 
 .content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 800px;
-    padding: 40px;
-    margin: auto;
-    text-align: center;
-    display: table;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 800px;
+	padding: 40px;
+	margin: auto;
+	text-align: center;
+	display: table;
 
 }
 
 .teastats, .teainfo {
-    padding: 20px;
-    display: table-cell;
-    vertical-align: middle;
+	padding: 20px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .teainfo {
-    max-width: 500px;
-    text-align: left;
+	max-width: 500px;
+	text-align: left;
 }
 
 .teastats {
-    max-width: 200px;
+	max-width: 200px;
 }
 
 .item {
-    display: inline-block;
-    padding: 20px;
-    vertical-align: bottom;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: bottom;
 }
 
 .specialty-content {
-    max-width: 960px;
-    margin: auto;
-    text-align: center;
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
 }
 
 .specialty-item {
-    width: 250px;
-    display: inline-block;
-    padding: 40px 20px;
-    vertical-align: top;
+	width: 250px;
+	display: inline-block;
+	padding: 40px 20px;
+	vertical-align: top;
 }
 
 .footer {
-    background-color: #F4F1EA;
-    width: 100%;
-    text-align: center;
+	background-color: #F4F1EA;
+	width: 100%;
+	text-align: center;
 }
 
 .footer-content {
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    font-size: 10pt;
+	max-width: 500px;
+	padding: 50px;
+	margin: auto;
+	font-size: 10pt;
 }
 
  /* Image Formatting */
@@ -185,39 +185,39 @@ a.menu:LINK, a.menu:VISITED {
 }
 
 @media (max-width: 800px) {
-    .container {
-        height: auto;
-    }
+	.container {
+		height: auto;
+	}
 
-    .content {
-        transform: none;
-        top: 0;
-    }
+	.content {
+		transform: none;
+		top: 0;
+	}
 
-    .content, .teainfo, .teastats {
-        display: block;
-        margin: auto;
-    }
+	.content, .teainfo, .teastats {
+		display: block;
+		margin: auto;
+	}
 
-    .title {
-        font-size: 36pt;
-        line-height: 40pt;
-    }
+	.title {
+	    font-size: 36pt;
+	    line-height: 40pt;
+	}
 
-    .item {
-        padding: 0px;
-    }
+	.item {
+		padding: 0px;
+	}
 
-    .one {
-        max-width: 40px;
-    }
+	.one {
+		max-width: 40px;
+	}
 
-    .two {
-        max-width: 100px;
-    }
+	.two {
+		max-width: 100px;
+	}
 
-    a.menu:LINK, a.menu:VISITED, a.nav:LINK, a.nav:VISITED {
-        font-size: 10pt;
-    }
+	a.menu:LINK, a.menu:VISITED, a.nav:LINK, a.nav:VISITED {
+		font-size: 10pt;
+	}
 
 }

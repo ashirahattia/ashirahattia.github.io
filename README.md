@@ -1,4 +1,6 @@
-website
+Angira Shirahatti Personal Website
 =======
 
-Starting repo for my personal website
+This repository contains all the files for my live-hosted personal website and projects
+email: ashirahattia@gmail.com
+
