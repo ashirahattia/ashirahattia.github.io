@@ -208,9 +208,6 @@ a.menu:LINK, a.menu:VISITED {
         padding: 0px;
     }
 
-    .one {
-        max-width: 40px;
-    }
 
     .two {
         max-width: 100px;
@@ -220,4 +217,10 @@ a.menu:LINK, a.menu:VISITED {
         font-size: 10pt;
     }
 
+}
+
+@media (max-width: 500px) {
+    .one {
+        max-width: 40px;
+    }
 }
