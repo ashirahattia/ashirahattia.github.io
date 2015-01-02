@@ -115,7 +115,6 @@ body, html {
 .footer {
     background-color: #F4F1EA;
     width: 100%;
-    text-align: center;
 }
 
 .footer-content {
@@ -123,6 +122,7 @@ body, html {
     padding: 50px;
     margin: auto;
     font-size: 10pt;
+    text-align: center;
 }
 
  /* Image Formatting */
