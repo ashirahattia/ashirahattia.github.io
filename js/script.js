@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('#intro').animate({left: 50, opacity: 'show'}, 1500);
+    $('#intro').animate({'padding-left': '50px', opacity: 'show'}, 1500);
 
     $('.title').fitText(1, { minFontSize: '40px' });
 
