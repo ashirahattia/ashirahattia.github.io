@@ -190,15 +190,13 @@ a.workbutton:HOVER {
     color: #93C6A2;
 }
 
-a.worklink:LINK, a.worklink:VISITED, a.worklink:HOVER {
+a.worklink:LINK, a.worklink:VISITED {
   color: #F5F4BE;
 }
 
-a.playlink:LINK, a.playlink:VISITED, a.playlink:HOVER {
+a.playlink:LINK, a.playlink:VISITED {
   color: #3E5167;
 }
-
-
 
 /* Media queries for responsive design */
 

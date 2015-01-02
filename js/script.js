@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('#intro').animate({left: 50, opacity: 'show'}, 1500);
 
-    $('.title').fitText(1, { minFontSize: '50px' });
+    $('.title').fitText(1, { minFontSize: '40px' });
 
     $('#navigation').delay(1500).fadeIn(1000);
 
