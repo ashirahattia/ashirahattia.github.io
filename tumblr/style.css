@@ -19,6 +19,7 @@ html, body {
 	padding: 50px;
 	max-width: 960px;
 	padding-top: 100px;
+	display: none;
 }
 
 .container {
@@ -63,6 +64,7 @@ html, body {
 
 .margin {
 	margin-top: 20px;
+	display: none;
 }
 
 img {
