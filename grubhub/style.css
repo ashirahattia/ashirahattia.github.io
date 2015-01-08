@@ -45,11 +45,11 @@ footer {
 
 .title, .header {
 	font-family: "Francois One", sans-serif;
-	text-transform: uppercase;
 }
 
 .title {
 	font-size: 48pt;
+	text-transform: uppercase;
 }
 
 .header {
