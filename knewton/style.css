@@ -86,7 +86,7 @@ a.w:LINK, a.w:VISITED {
 }
 
 a.g:LINK, a.g:VISITED {
-	color: #556270;
+	color: #60B99A;
 }
 
 a.w:HOVER {
@@ -94,7 +94,7 @@ a.w:HOVER {
 }
 
 a.g:HOVER {
-	color: #60B99A;
+	color: #556270;
 }
 
 a.nav:LINK, a.nav:VISITED {
