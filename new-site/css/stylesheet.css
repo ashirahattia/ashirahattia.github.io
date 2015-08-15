@@ -104,6 +104,9 @@ a.button:hover {
 
 .container {
   margin: 15% 0; }
+  @media all and (max-width: 800px) {
+    .container.first-item {
+      margin: 7% 0; } }
 
 .content {
   width: 40%;

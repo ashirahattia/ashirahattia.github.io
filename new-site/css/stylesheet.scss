@@ -25,7 +25,7 @@ $font-title-letter-spacing: 0.1em;
 /* Breakpoints */
 
 $tablet: 800px;
-$mobile: 680px;
+$mobile: 500px;
 
 /* Margins */
 $clearfix: 15%;
@@ -168,6 +168,11 @@ a.button:hover {
 
 .container {
 	margin: $clearfix 0;
+	@media all and (max-width: $tablet) {
+		&.first-item {
+			margin: 7% 0;
+		}
+	}
 }
 
 .content {
@@ -175,6 +180,7 @@ a.button:hover {
 	margin: 0 auto;
 	@media all and (max-width: $tablet) {
 		width: 90%;
+
 	}
 }
 
