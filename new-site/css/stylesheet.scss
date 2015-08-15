@@ -1,0 +1,200 @@
+/* Font Families */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700|Signika:300,700);
+
+/* Colors */
+
+$pink: #F15F51;
+$yellow: #F7D23B;
+$light-yellow: #ECE37B;
+$light-blue: #ADD5BC;
+$blue: #7BB7B4;
+$light-gray: #E9E9E9;
+$medium-gray: #81949E;
+$dark-gray: #37393D;
+
+/* Typography */
+
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Signika', sans-serif;
+$font-light: 300;
+$font-bold: 700;
+$font-body-size: 1em;
+$font-title-size: 1.5em;
+$font-title-letter-spacing: 0.1em;
+
+/* Breakpoints */
+
+$tablet: 800px;
+$mobile: 680px;
+
+/* Margins */
+$clearfix: 15%;
+$header-margin: 5px;
+$box-margin: 15px;
+$button-margin: 30px;
+
+/* General */
+
+body, html {
+	color: $dark-gray;
+	height: 100%;
+	margin: 0;
+}
+
+p {
+	font-family: $font-body;
+	font-weight: $font-light;
+	font-size: $font-body-size;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: $medium-gray;
+}
+
+a:hover {
+	color: $dark-gray;
+}
+
+
+/* Headers */
+
+h1 {
+	font-family: $font-title;
+	text-transform: uppercase;
+	letter-spacing: $font-title-letter-spacing;
+	margin: $header-margin 0;
+	font-size: $font-title-size;
+}
+
+h2 {
+	@extend h1;
+	font-size: $font-body-size;
+}
+
+
+h3 {
+	font-family: $font-body;
+	text-transform: uppercase;
+	font-size: 1.0em;
+	margin: 0;
+}
+
+h4 {
+	@extend h3;
+	font-weight: $font-light;
+}
+
+/* Buttons */
+
+
+.button-span {
+	display: inline-block;
+	margin: 10px 30px 0 0;
+}
+
+
+a.button:link, a.button:visited, a.button:active {
+	font-family: $font-title;
+	font-weight: $font-bold;
+	text-transform: uppercase;
+	letter-spacing: $font-title-letter-spacing;
+	color: $dark-gray;
+	margin: 0 $button-margin 0 0;
+	padding: 10px;
+	border: 2px $dark-gray solid;
+	display:block;
+}
+
+a.button:hover {
+	background-color: $dark-gray;
+	color: #FFF;
+	&.button-pink {
+		color: $pink;
+	}
+}
+
+
+/* Background Colors */
+
+.pink {
+	background-color: $pink;
+}
+
+.yellow {
+	background-color: $yellow;
+}
+
+.light-yellow {
+	background-color: $light-yellow;
+}
+
+.light-blue {
+	background-color: $light-blue;
+}
+
+.blue {
+	background-color: $blue;
+}
+
+.white {
+	background-color: #FFF;
+}
+
+.gray {
+	background-color: $light-gray;
+}
+
+/* Containers */
+
+.background {
+	width: 100%;
+}
+
+.intro {
+	height: 70%;
+}
+
+.blurb {
+	position: absolute;
+	bottom: 40%;
+	left: 10%;
+	width: 80%;
+}
+
+.header {
+	height: 40%;
+}
+
+.container {
+	margin: $clearfix 0;
+}
+
+.content {
+	width: 40%;
+	margin: 0 auto;
+	@media all and (max-width: $tablet) {
+		width: 90%;
+	}
+}
+
+.footer {
+	height: 40%;
+}
+
+.overlay {
+	width: 100%;
+	min-width: 240px;
+	height: 200px;
+	margin: $box-margin 0;
+}
+
+
+/* Menu */
+
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
