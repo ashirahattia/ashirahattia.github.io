@@ -1,0 +1,38 @@
+/* Font Families */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700|Signika:300,700);
+
+/* Colors */
+
+$pink: #F15F51;
+$yellow: #F7D23B;
+$light-yellow: #ECE37B;
+$light-blue: #ADD5BC;
+$blue: #7BB7B4;
+$light-gray: #E9E9E9;
+$medium-gray: #81949E;
+$dark-gray: #37393D;
+
+/* Typography */
+
+$font-title: 'Montserrat', sans-serif;
+$font-body: 'Signika', sans-serif;
+$font-light: 300;
+$font-bold: 700;
+$font-body-size: 1em;
+$font-title-size: 1.8em;
+$font-subtitle-size: 1em;
+$font-title-letter-spacing: 0.1em;
+
+/* Breakpoints */
+
+$tablet: 800px;
+$mobile: 500px;
+
+/* Margins */
+$clearfix: 50px;
+$small: 10px;
+$header-margin: 5px;
+$box-margin: 15px;
+
+/* Padding */
+$box-padding: 30px;

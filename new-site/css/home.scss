@@ -1,0 +1,35 @@
+@import "_variables.scss";
+@import "_general.scss";
+@import "_buttons.scss";
+@import "_menu.scss";
+@import "_footer.scss";
+@import "_containers.scss";
+
+/* Containers */
+
+.intro {
+	min-height: 70%;
+}
+
+.clearfix {
+	width: 100%;
+	height: $clearfix;
+}
+
+.blurb {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+}
+
+/* Images */
+
+.overlay {
+	width: 100%;
+	min-width: 240px;
+	height: 200px;
+	margin: 0 0 $box-margin 0;
+}
+
+

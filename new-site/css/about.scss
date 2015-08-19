@@ -1,0 +1,71 @@
+@import "_variables.scss";
+@import "_general.scss";
+@import "_buttons.scss";
+@import "_menu.scss";
+@import "_footer.scss";
+@import "_containers.scss";
+
+/* Resume */
+
+.box {
+	@extend .content;
+	margin: $clearfix auto;
+	width: 50%;
+	text-align: center;
+	@media all and (max-width: $tablet) {
+		width: 80%;
+	}
+}
+
+.box-content {
+	padding: $box-padding;
+	&.text-left {
+		text-align: left;
+	}
+	&.text-center {
+		text-align: center;
+	}
+}
+
+.left-half {
+	width: 40%;
+	padding: 0 $box-padding 0 0;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	border-right: 1px solid;
+	@media all and (max-width: $tablet) {
+		width: 100%;
+		display: block;
+		border-right: none;
+		border-bottom: 1px solid;
+		padding: 0 0 $box-padding 0;
+
+	}
+}
+
+.right-half {
+	@extend .left-half;
+	border: none;
+	padding: 0 0 0 $box-padding;
+	@media all and (max-width: $tablet) {
+		padding: $box-padding 0 0 0;
+
+	}
+
+}
+
+/* Images */
+.square {
+	width: 25%;
+	height: 0;
+	padding-bottom: 25%;
+	float: left;
+	margin: 0;
+	@media all and (max-width: $tablet) {
+		width: 50%;
+		height: 0;
+		padding-bottom: 50%;
+	}
+}

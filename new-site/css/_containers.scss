@@ -1,0 +1,38 @@
+
+/* Containers */
+
+.background {
+	width: 100%;
+}
+
+.container {
+	width: 40%;
+	margin: 0 auto;
+	&.with-padding {
+		padding: $clearfix 0;
+	}
+	@media all and (max-width: $tablet) {
+		width: 90%;
+	}
+}
+
+.content {
+	margin: $clearfix 0 0 0;
+	@media all and (max-width: $tablet) {
+		&.first-item {
+			margin: 7% 0;
+		}
+	}
+}
+
+/* Header */
+.header {
+	min-height: 40%;
+}
+
+.blurb {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+}

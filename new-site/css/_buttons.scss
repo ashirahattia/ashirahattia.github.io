@@ -1,0 +1,29 @@
+/* Buttons */
+
+.button-span {
+	display: inline-block;
+	margin: 10px 30px 0 0;
+}
+
+
+a.button:link, a.button:visited, a.button:active {
+	font-family: $font-title;
+	font-weight: $font-bold;
+	text-transform: uppercase;
+	letter-spacing: $font-title-letter-spacing;
+	color: $dark-gray;
+	padding: 10px;
+	border: 2px $dark-gray solid;
+	display:block;
+}
+
+a.button:hover {
+	background-color: $dark-gray;
+	color: #FFF;
+	&.button-pink {
+		color: $pink;
+	}
+	&.button-gray {
+		color: $light-gray;
+	}
+}

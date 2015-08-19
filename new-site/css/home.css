@@ -4,11 +4,13 @@
 /* Typography */
 /* Breakpoints */
 /* Margins */
+/* Padding */
 /* General */
 body, html {
   color: #37393D;
   height: 100%;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 p {
   font-family: "Signika", sans-serif;
@@ -22,13 +24,18 @@ a:link, a:visited, a:active {
 a:hover {
   color: #37393D; }
 
+.no-top-margin {
+  margin-top: 0; }
+
+.no-bottom-margin {
+  margin-bottom: 0; }
+
 /* Headers */
 h1, h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: 5px 0;
-  font-size: 1.5em; }
+  font-size: 1.8em; }
 
 h2 {
   font-size: 1em; }
@@ -36,33 +43,11 @@ h2 {
 h3, h4 {
   font-family: "Signika", sans-serif;
   text-transform: uppercase;
-  font-size: 1.0em;
+  font-size: 1em;
   margin: 0; }
 
 h4 {
   font-weight: 300; }
-
-/* Buttons */
-.button-span {
-  display: inline-block;
-  margin: 10px 30px 0 0; }
-
-a.button:link, a.button:visited, a.button:active {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #37393D;
-  margin: 0 30px 0 0;
-  padding: 10px;
-  border: 2px #37393D solid;
-  display: block; }
-
-a.button:hover {
-  background-color: #37393D;
-  color: #FFF; }
-  a.button:hover.button-pink {
-    color: #F15F51; }
 
 /* Background Colors */
 .pink {
@@ -86,48 +71,90 @@ a.button:hover {
 .gray {
   background-color: #E9E9E9; }
 
+/* Buttons */
+.button-span {
+  display: inline-block;
+  margin: 10px 30px 0 0; }
+
+a.button:link, a.button:visited, a.button:active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #37393D;
+  padding: 10px;
+  border: 2px #37393D solid;
+  display: block; }
+
+a.button:hover {
+  background-color: #37393D;
+  color: #FFF; }
+  a.button:hover.button-pink {
+    color: #F15F51; }
+  a.button:hover.button-gray {
+    color: #E9E9E9; }
+
+/* Menu */
+.menu-link-div {
+  position: fixed;
+  top: 0;
+  right: 0; }
+
+.menu-link {
+  padding: 10px; }
+
+/* Footer */
+.footer {
+  height: 40%; }
+
 /* Containers */
 .background {
   width: 100%; }
 
-.intro {
-  height: 70%; }
+.container {
+  width: 40%;
+  margin: 0 auto; }
+  .container.with-padding {
+    padding: 50px 0; }
+  @media all and (max-width: 800px) {
+    .container {
+      width: 90%; } }
+
+.content {
+  margin: 50px 0 0 0; }
+  @media all and (max-width: 800px) {
+    .content.first-item {
+      margin: 7% 0; } }
+
+/* Header */
+.header {
+  min-height: 40%; }
 
 .blurb {
   position: absolute;
-  bottom: 40%;
+  top: 15%;
   left: 10%;
   width: 80%; }
 
-.header {
-  height: 40%; }
+/* Containers */
+.intro {
+  min-height: 70%; }
 
-.container {
-  margin: 15% 0; }
-  @media all and (max-width: 800px) {
-    .container.first-item {
-      margin: 7% 0; } }
+.clearfix {
+  width: 100%;
+  height: 50px; }
 
-.content {
-  width: 40%;
-  margin: 0 auto; }
-  @media all and (max-width: 800px) {
-    .content {
-      width: 90%; } }
+.blurb {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%; }
 
-.footer {
-  height: 40%; }
-
+/* Images */
 .overlay {
   width: 100%;
   min-width: 240px;
   height: 200px;
-  margin: 15px 0; }
+  margin: 0 0 15px 0; }
 
-/* Menu */
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0; }
-
-/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=home.css.map */

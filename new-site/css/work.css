@@ -1,0 +1,159 @@
+/* Font Families */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700|Signika:300,700);
+/* Colors */
+/* Typography */
+/* Breakpoints */
+/* Margins */
+/* Padding */
+/* General */
+body, html {
+  color: #37393D;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-family: "Signika", sans-serif;
+  font-weight: 300;
+  font-size: 1em; }
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #81949E; }
+
+a:hover {
+  color: #37393D; }
+
+.no-top-margin {
+  margin-top: 0; }
+
+.no-bottom-margin {
+  margin-bottom: 0; }
+
+/* Headers */
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.8em; }
+
+h2 {
+  font-size: 1em; }
+
+h3, h4 {
+  font-family: "Signika", sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 0; }
+
+h4 {
+  font-weight: 300; }
+
+/* Background Colors */
+.pink {
+  background-color: #F15F51; }
+
+.yellow {
+  background-color: #F7D23B; }
+
+.light-yellow {
+  background-color: #ECE37B; }
+
+.light-blue {
+  background-color: #ADD5BC; }
+
+.blue {
+  background-color: #7BB7B4; }
+
+.white {
+  background-color: #FFF; }
+
+.gray {
+  background-color: #E9E9E9; }
+
+/* Buttons */
+.button-span {
+  display: inline-block;
+  margin: 10px 30px 0 0; }
+
+a.button:link, a.button:visited, a.button:active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #37393D;
+  padding: 10px;
+  border: 2px #37393D solid;
+  display: block; }
+
+a.button:hover {
+  background-color: #37393D;
+  color: #FFF; }
+  a.button:hover.button-pink {
+    color: #F15F51; }
+  a.button:hover.button-gray {
+    color: #E9E9E9; }
+
+/* Menu */
+.menu-link-div {
+  position: fixed;
+  top: 0;
+  right: 0; }
+
+.menu-link {
+  padding: 10px; }
+
+/* Footer */
+.footer {
+  height: 40%; }
+
+/* Containers */
+.background {
+  width: 100%; }
+
+.container {
+  width: 40%;
+  margin: 0 auto; }
+  .container.with-padding {
+    padding: 50px 0; }
+  @media all and (max-width: 800px) {
+    .container {
+      width: 90%; } }
+
+.content {
+  margin: 50px 0 0 0; }
+  @media all and (max-width: 800px) {
+    .content.first-item {
+      margin: 7% 0; } }
+
+/* Header */
+.header {
+  min-height: 40%; }
+
+.blurb {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%; }
+
+img {
+  width: 100%;
+  border: 1px #E9E9E9 solid; }
+  img.half-size {
+    width: 40%; }
+    @media all and (max-width: 500px) {
+      img.half-size {
+        width: 100%; } }
+
+ul {
+  font-family: "Signika", sans-serif; }
+
+.image-container {
+  width: 60%;
+  margin: 30px auto;
+  text-align: center; }
+  @media all and (max-width: 800px) {
+    .image-container {
+      width: 90%; } }
+
+/*# sourceMappingURL=work.css.map */

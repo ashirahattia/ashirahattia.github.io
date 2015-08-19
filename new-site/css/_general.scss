@@ -1,0 +1,91 @@
+
+/* General */
+
+body, html {
+	color: $dark-gray;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: $font-body;
+	font-weight: $font-light;
+	font-size: $font-body-size;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: $medium-gray;
+}
+
+a:hover {
+	color: $dark-gray;
+}
+
+.no-top-margin {
+	margin-top: 0;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+
+/* Headers */
+
+h1 {
+	font-family: $font-title;
+	text-transform: uppercase;
+	letter-spacing: $font-title-letter-spacing;
+	font-size: $font-title-size;
+}
+
+h2 {
+	@extend h1;
+	font-size: $font-body-size;
+}
+
+
+h3 {
+	font-family: $font-body;
+	text-transform: uppercase;
+	font-size: $font-subtitle-size;
+	margin: 0;
+}
+
+h4 {
+	@extend h3;
+	font-weight: $font-light;
+}
+
+
+/* Background Colors */
+
+.pink {
+	background-color: $pink;
+}
+
+.yellow {
+	background-color: $yellow;
+}
+
+.light-yellow {
+	background-color: $light-yellow;
+}
+
+.light-blue {
+	background-color: $light-blue;
+}
+
+.blue {
+	background-color: $blue;
+}
+
+.white {
+	background-color: #FFF;
+}
+
+.gray {
+	background-color: $light-gray;
+}
