@@ -7,6 +7,11 @@
 
 /* Resume */
 
+.resume-item {
+	margin-top: 0;
+	margin-bottom: $box-padding;
+}
+
 .box {
 	@extend .content;
 	margin: $clearfix auto;
@@ -57,15 +62,50 @@
 }
 
 /* Images */
+
 .square {
 	width: 25%;
 	height: 0;
 	padding-bottom: 25%;
 	float: left;
 	margin: 0;
+	overflow: none;
 	@media all and (max-width: $tablet) {
 		width: 50%;
 		height: 0;
 		padding-bottom: 50%;
 	}
+}
+
+.overlay {
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	opacity: 0.5;
+	margin: 0;
+}
+
+/* Specific Photos */
+
+.bookshelves {
+	background: URL("../about/images/bookshelves.png");
+	background-size: 100%;
+}
+
+
+.glasses {
+	background: URL("../about/images/glasses.png");
+	background-size: 100%;
+}
+
+
+.grass {
+	background: URL("../about/images/grass.png");
+	background-size: 100%;
+}
+
+
+.sea {
+	background: URL("../about/images/sea.png");
+	background-size: 100%;
 }

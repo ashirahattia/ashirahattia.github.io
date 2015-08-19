@@ -25,11 +25,39 @@
 
 /* Images */
 
-.overlay {
+.photo {
 	width: 100%;
 	min-width: 240px;
 	height: 200px;
 	margin: 0 0 $box-margin 0;
+}
+
+.overlay {
+	width: 100%;
+	min-width: 240px;
+	height: 200px;
+	margin: 0;
+	opacity: 0.8;
+}
+
+.shapeways {
+	background: URL("../images/shapeways.png") center center;
+	background-size: 100%;
+}
+
+.wonder {
+	background: URL("../images/wonder.png");
+	background-size: 100%;
+}
+
+.innod {
+	background: URL("../images/innod.png") center center;
+	background-size: 100%;
+}
+
+.other {
+	background: URL("../images/other.png") center center;
+	background-size: 100%;
 }
 
 

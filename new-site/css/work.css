@@ -12,7 +12,7 @@ body, html {
   margin: 0;
   padding: 0; }
 
-p {
+p, i, ul, ol {
   font-family: "Signika", sans-serif;
   font-weight: 300;
   font-size: 1em; }
@@ -34,7 +34,7 @@ a:hover {
 h1, h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   font-size: 1.8em; }
 
 h2 {
@@ -47,7 +47,7 @@ h3, h4 {
   margin: 0; }
 
 h4 {
-  font-weight: 300; }
+  text-transform: none; }
 
 /* Background Colors */
 .pink {
@@ -80,7 +80,7 @@ a.button:link, a.button:visited, a.button:active {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #37393D;
   padding: 10px;
   border: 2px #37393D solid;
@@ -116,13 +116,13 @@ a.button:hover {
   margin: 0 auto; }
   .container.with-padding {
     padding: 50px 0; }
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 900px) {
     .container {
       width: 90%; } }
 
 .content {
   margin: 50px 0 0 0; }
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 900px) {
     .content.first-item {
       margin: 7% 0; } }
 
@@ -152,7 +152,7 @@ ul {
   width: 60%;
   margin: 30px auto;
   text-align: center; }
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 900px) {
     .image-container {
       width: 90%; } }
 
