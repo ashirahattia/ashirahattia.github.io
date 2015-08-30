@@ -10,12 +10,15 @@ body, html {
   color: #37393D;
   height: 100%;
   margin: 0;
-  padding: 0; }
-
-p, i, ul, ol {
+  padding: 0;
   font-family: "Signika", sans-serif;
-  font-weight: 300;
-  font-size: 1em; }
+  font-size: 1.05em; }
+
+p {
+  line-height: 1.5em; }
+
+b, strong {
+  font-weight: 700; }
 
 a:link, a:visited, a:active {
   text-decoration: none;
@@ -35,18 +38,22 @@ h1, h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  font-size: 1.8em; }
+  font-size: 1.6em; }
 
 h2 {
-  font-size: 1em; }
+  font-size: 1.05em; }
 
-h3, h4 {
+h3, h4, h5 {
   font-family: "Signika", sans-serif;
   text-transform: uppercase;
   font-size: 1em;
+  line-height: 1.5em;
   margin: 0; }
 
 h4 {
+  font-weight: 300; }
+
+h5 {
   text-transform: none; }
 
 /* Background Colors */
@@ -76,7 +83,7 @@ h4 {
   display: inline-block;
   margin: 10px 30px 0 0; }
 
-a.button:link, a.button:visited, a.button:active {
+a.button:link, a.button:visited {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -86,13 +93,18 @@ a.button:link, a.button:visited, a.button:active {
   border: 2px #37393D solid;
   display: block; }
 
-a.button:hover {
+a.button:hover, a.button:active {
   background-color: #37393D;
+  transition: linear 0.1s;
   color: #FFF; }
-  a.button:hover.button-pink {
+  a.button:hover.button-pink, a.button:active.button-pink {
     color: #F15F51; }
-  a.button:hover.button-gray {
+  a.button:hover.button-gray, a.button:active.button-gray {
     color: #E9E9E9; }
+  a.button:hover.button-yellow, a.button:active.button-yellow {
+    color: #F7D23B; }
+  a.button:hover.button-blue, a.button:active.button-blue {
+    color: #7BB7B4; }
 
 /* Menu */
 .menu-link-div {
@@ -105,79 +117,110 @@ a.button:hover {
 
 /* Footer */
 .footer {
-  height: 40%; }
+  text-align: center;
+  width: 80%;
+  padding: 50px 0;
+  margin: 1em auto 0 auto; }
+  @media all and (max-width: 900px) {
+    .footer {
+      width: 95%; } }
+
+.social-media {
+  margin: 10px;
+  width: 5%; }
 
 /* Containers */
 .background {
   width: 100%; }
 
 .container {
-  width: 40%;
+  width: 50%;
+  max-width: 700px;
+  height: 100%;
   margin: 0 auto; }
   .container.with-padding {
     padding: 50px 0; }
+  .container.padding-top {
+    padding-top: 50px; }
+  .container.padding-bottom {
+    padding-bottom: 50px; }
   @media all and (max-width: 900px) {
     .container {
       width: 90%; } }
 
 .content {
   margin: 50px 0 0 0; }
-  @media all and (max-width: 900px) {
-    .content.first-item {
-      margin: 7% 0; } }
 
 /* Header */
 .header {
   min-height: 40%; }
 
-.blurb {
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 80%; }
+.title {
+  width: 50%;
+  padding: 100px;
+  margin: 0 auto;
+  text-align: center; }
 
 /* Containers */
 .intro {
-  min-height: 70%; }
+  height: 75%;
+  text-align: center; }
 
-.clearfix {
-  width: 100%;
-  height: 50px; }
+.castle {
+  width: 95%;
+  max-width: 360px;
+  margin-top: 50px; }
 
-.blurb {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  width: 80%; }
+.extra-padding {
+  padding: 30px 0; }
 
 /* Images */
 .photo {
   width: 100%;
-  min-width: 240px;
-  height: 200px;
-  margin: 0 0 15px 0; }
+  height: 240px;
+  margin-bottom: 30px; }
 
 .overlay {
   width: 100%;
-  min-width: 240px;
-  height: 200px;
-  margin: 0;
-  opacity: 0.8; }
+  height: 100%;
+  opacity: 0.6;
+  margin: 0; }
 
 .shapeways {
-  background: URL("../images/shapeways.png") center center;
-  background-size: 100%; }
+  background: URL("../images/shapeways.png");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  @media all and (max-width: 500px) {
+    .shapeways {
+      background-position: center bottom; } }
 
 .wonder {
   background: URL("../images/wonder.png");
-  background-size: 100%; }
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  @media all and (max-width: 500px) {
+    .wonder {
+      background-position: center bottom; } }
 
 .innod {
-  background: URL("../images/innod.png") center center;
-  background-size: 100%; }
+  background: URL("../images/innod.png");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  @media all and (max-width: 500px) {
+    .innod {
+      background-position: center bottom; } }
 
 .other {
-  background: URL("../images/other.png") center center;
+  background: URL("../images/other.png");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: 100%; }
+  @media all and (max-width: 500px) {
+    .other {
+      background-position: center bottom; } }
 
 /*# sourceMappingURL=home.css.map */

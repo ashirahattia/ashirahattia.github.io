@@ -6,7 +6,7 @@
 }
 
 
-a.button:link, a.button:visited, a.button:active {
+a.button:link, a.button:visited {
 	font-family: $font-title;
 	font-weight: $font-bold;
 	text-transform: uppercase;
@@ -17,13 +17,20 @@ a.button:link, a.button:visited, a.button:active {
 	display:block;
 }
 
-a.button:hover {
+a.button:hover, a.button:active {
 	background-color: $dark-gray;
+	transition: linear 0.1s;
 	color: #FFF;
 	&.button-pink {
 		color: $pink;
 	}
 	&.button-gray {
 		color: $light-gray;
+	}
+	&.button-yellow {
+		color: $yellow;
+	}
+	&.button-blue {
+		color: $blue;
 	}
 }

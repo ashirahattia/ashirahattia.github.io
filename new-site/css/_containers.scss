@@ -6,10 +6,18 @@
 }
 
 .container {
-	width: 40%;
+	width: 50%;
+	max-width: 700px;
+	height: 100%;
 	margin: 0 auto;
 	&.with-padding {
 		padding: $clearfix 0;
+	}
+	&.padding-top {
+		padding-top: $clearfix;
+	}
+	&.padding-bottom {
+		padding-bottom: $clearfix;
 	}
 	@media all and (max-width: $tablet) {
 		width: 90%;
@@ -18,11 +26,6 @@
 
 .content {
 	margin: $clearfix 0 0 0;
-	@media all and (max-width: $tablet) {
-		&.first-item {
-			margin: 7% 0;
-		}
-	}
 }
 
 /* Header */
@@ -30,9 +33,9 @@
 	min-height: 40%;
 }
 
-.blurb {
-	position: absolute;
-	top: 15%;
-	left: 10%;
-	width: 80%;
+.title {
+	width: 50%;
+	padding: 100px;
+	margin: 0 auto;
+	text-align: center;
 }

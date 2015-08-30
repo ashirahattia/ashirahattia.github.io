@@ -16,9 +16,6 @@ img {
 	border: 1px $light-gray solid;
 }
 
-ul {
-	font-family: $font-body;
-}
 
 .image-container {
 	width: 60%;
@@ -27,4 +24,18 @@ ul {
 	@media all and (max-width: $tablet) {
 		width: 90%;
 	}
+}
+
+.image-grid {
+	width: 48%;
+	margin: 2px 5px;
+	float: left;
+	@media all and (max-width: $mobile) {
+		width: 95%;
+	} 
+}
+
+.clearfix {
+	width: 100%;
+	clear: both;
 }

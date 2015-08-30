@@ -1,5 +1,16 @@
 
 /* Footer */
 .footer {
-	height: 40%;
+	text-align: center;
+	width: 80%;
+	padding: $clearfix 0;
+	margin: 1em auto 0 auto;
+	@media all and (max-width: $tablet) {
+		width: 95%;
+	}
+}
+
+.social-media {
+	margin: $small;
+	width: 5%;
 }
