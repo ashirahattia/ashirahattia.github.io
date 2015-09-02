@@ -116,14 +116,31 @@ a.button:hover, a.button:active {
   display: none;
   text-align: center; }
 
-.menu-link-div {
+#menu-link-div {
   position: fixed;
   top: 0;
   right: 0;
   transition: linear 0.2s; }
+  @media all and (max-width: 900px) {
+    #menu-link-div {
+      width: 100%;
+      text-align: right; } }
 
 .menu-link {
-  padding: 10px; }
+  padding: 10px;
+  display: inline-block; }
+  @media all and (max-width: 900px) {
+    .menu-link.desktop {
+      display: none; } }
+  .menu-link.mobile {
+    display: none; }
+    @media all and (max-width: 900px) {
+      .menu-link.mobile {
+        display: inline-block; } }
+
+a.menu-icon {
+  font-family: "Montserrat", sans-serif;
+  color: #37393D; }
 
 .menu-items {
   line-height: 2em;
@@ -180,6 +197,11 @@ a.menu-item:hover, a.menu-item:active {
 .content {
   margin: 50px 0 0 0; }
 
+.clearfix {
+  width: 100%;
+  height: 0;
+  clear: both; }
+
 /* Header */
 .header {
   min-height: 40%; }
@@ -200,8 +222,9 @@ a.menu-item:hover, a.menu-item:active {
   max-width: 360px;
   margin-top: 50px; }
 
-.extra-padding {
-  padding: 30px 0; }
+@media all and (min-width: 900px) {
+  .extra-padding {
+    padding: 10px 0; } }
 
 /* Images */
 .photo {

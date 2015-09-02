@@ -10,15 +10,36 @@
 	text-align: center;
 }
 
-.menu-link-div {
+#menu-link-div {
 	position: fixed;
 	top: 0;
 	right: 0;
 	transition: linear 0.2s;
+	@media all and (max-width: $tablet) {
+		width: 100%;
+		text-align: right;
+	}
 }
 
 .menu-link {
-	padding: 10px;
+	padding: $small;
+	display: inline-block;
+	&.desktop {
+		@media all and (max-width: $tablet) {
+			display: none;
+		}
+	}
+	&.mobile {
+		display: none;
+		@media all and (max-width: $tablet) {
+			display: inline-block;
+		}
+	}
+}
+
+a.menu-icon {
+	font-family: $font-title;
+	color: $dark-gray;
 }
 
 .menu-items {

@@ -28,6 +28,12 @@
 	margin: $clearfix 0 0 0;
 }
 
+.clearfix {
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+
 /* Header */
 .header {
 	min-height: 40%;

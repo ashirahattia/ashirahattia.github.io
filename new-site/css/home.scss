@@ -18,8 +18,11 @@
 }
 
 .extra-padding {
-	padding: $box-padding 0;
+	@media all and (min-width: $tablet) {
+		padding: $small 0;
+	}
 }
+
 
 /* Images */
 
