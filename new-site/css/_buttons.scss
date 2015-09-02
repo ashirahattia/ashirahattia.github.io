@@ -6,7 +6,7 @@
 }
 
 
-a.button:link, a.button:visited {
+a.button:link, a.button:visited, {
 	font-family: $font-title;
 	font-weight: $font-bold;
 	text-transform: uppercase;
@@ -14,7 +14,7 @@ a.button:link, a.button:visited {
 	color: $dark-gray;
 	padding: 10px;
 	border: 2px $dark-gray solid;
-	display:block;
+	display: block;
 }
 
 a.button:hover, a.button:active {
@@ -34,3 +34,4 @@ a.button:hover, a.button:active {
 		color: $blue;
 	}
 }
+

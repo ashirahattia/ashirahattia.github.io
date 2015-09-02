@@ -1,11 +1,46 @@
 /* Menu */
 
+#menu {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	display: none;
+	text-align: center;
+}
+
 .menu-link-div {
 	position: fixed;
 	top: 0;
 	right: 0;
+	transition: linear 0.2s;
 }
 
 .menu-link {
 	padding: 10px;
+}
+
+.menu-items {
+	line-height: 2em;
+	padding: 10px;
+}
+
+a.menu-item:link, a.menu-item:visited {
+	font-family: $font-title;
+	font-weight: $font-bold;
+	text-transform: uppercase;
+	color: $dark-gray;
+	font-size: $font-title-size;
+	margin: $small;
+
+}
+
+a.menu-item:hover, a.menu-item:active {
+	border-bottom: 2px $dark-gray solid;
+}
+
+.waypoint-pink, .waypoint-gray, .waypoint-yellow, .waypoint-blue {
+	width: 100%;
+	height: 0px;
 }
