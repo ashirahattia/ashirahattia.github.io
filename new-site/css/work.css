@@ -143,15 +143,17 @@ a.menu-icon {
   color: #37393D; }
 
 .menu-items {
+  margin-top: 10%;
   line-height: 2em;
   padding: 10px; }
 
 a.menu-item:link, a.menu-item:visited {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #37393D;
-  font-size: 1.6em;
+  font-size: 1em;
   margin: 10px; }
 
 a.menu-item:hover, a.menu-item:active {

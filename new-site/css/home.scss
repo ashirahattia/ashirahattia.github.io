@@ -64,6 +64,14 @@
 
 }
 
+.lily-livered {
+	background: URL("../images/lily-livered.png");
+	@include background-dimensions();
+	@media all and (max-width: $mobile) {
+		background-position: center center;
+	}
+}
+
 .other {
 	background: URL("../images/other.png");
 	@include background-dimensions();

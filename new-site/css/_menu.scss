@@ -43,16 +43,19 @@ a.menu-icon {
 }
 
 .menu-items {
+	margin-top: 10%;
 	line-height: 2em;
 	padding: 10px;
+
 }
 
 a.menu-item:link, a.menu-item:visited {
 	font-family: $font-title;
 	font-weight: $font-bold;
+	letter-spacing: $font-title-letter-spacing;
 	text-transform: uppercase;
 	color: $dark-gray;
-	font-size: $font-title-size;
+	font-size: $font-subtitle-size;
 	margin: $small;
 
 }
