@@ -213,7 +213,8 @@ a.menu-item:hover, a.menu-item:active {
 
 /* Header */
 .header {
-  min-height: 485px; }
+  min-height: 485px;
+  text-align: center; }
 
 .title {
   width: 50%;
@@ -225,10 +226,6 @@ a.menu-item:hover, a.menu-item:active {
       padding: 100px 0; } }
 
 /* Containers */
-.intro {
-  min-height: 40%;
-  text-align: center; }
-
 .castle {
   width: 95%;
   max-width: 360px;

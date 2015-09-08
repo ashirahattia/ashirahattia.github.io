@@ -213,7 +213,8 @@ a.menu-item:hover, a.menu-item:active {
 
 /* Header */
 .header {
-  min-height: 485px; }
+  min-height: 485px;
+  text-align: center; }
 
 .title {
   width: 50%;
