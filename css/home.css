@@ -229,7 +229,8 @@ a.menu-item:hover, a.menu-item:active {
 .castle {
   width: 95%;
   max-width: 360px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding-bottom: 10px; }
 
 @media all and (min-width: 900px) {
   .extra-padding {
