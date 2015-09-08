@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	// DOWNWARD //
 	$('.gray').waypoint(function(direction) {
-		console.log("REACHING HERE!");
 		if($('#menu-link-div').hasClass('pink')) {
 			switchColors('pink', 'gray', 'button-pink', 'button-gray');
 		} 
