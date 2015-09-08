@@ -26,9 +26,11 @@
 	&.text-left {
 		text-align: left;
 	}
-	&.margin {
-		margin: $box-padding;
-		padding: $box-padding;
+	@media all and (min-width: $tablet) {
+		&.margin {
+
+			margin: $box-padding;
+		}
 	}
 	&.text-center {
 		text-align: center;
