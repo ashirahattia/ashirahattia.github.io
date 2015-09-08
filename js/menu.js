@@ -1,5 +1,5 @@
  $(document).ready(function() {
-    $('#m').click(function(){
+    $('.menu-link').click(function(){
       $('#menu').fadeIn(500);
     });
 
