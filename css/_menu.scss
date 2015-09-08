@@ -57,6 +57,9 @@ a.menu-item:link, a.menu-item:visited {
 	color: $dark-gray;
 	font-size: $font-subtitle-size;
 	margin: $small;
+	@media all and (max-width: $mobile) {
+		font-size: 0.8em;
+	}
 
 }
 

@@ -155,6 +155,9 @@ a.menu-item:link, a.menu-item:visited {
   color: #37393D;
   font-size: 1em;
   margin: 10px; }
+  @media all and (max-width: 500px) {
+    a.menu-item:link, a.menu-item:visited {
+      font-size: 0.8em; } }
 
 a.menu-item:hover, a.menu-item:active {
   border-bottom: 2px #37393D solid; }
