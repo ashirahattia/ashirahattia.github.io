@@ -22,10 +22,11 @@
 }
 
 .box-content {
+	padding: $box-padding;
 	&.text-left {
 		text-align: left;
 	}
-	&.padding {
+	&.margin {
 		margin: $box-padding;
 		padding: $box-padding;
 	}

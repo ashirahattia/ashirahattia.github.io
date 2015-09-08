@@ -232,13 +232,15 @@ a.menu-item:hover, a.menu-item:active {
     .box {
       width: 80%; } }
 
-.box-content.text-left {
-  text-align: left; }
-.box-content.padding {
-  margin: 30px;
+.box-content {
   padding: 30px; }
-.box-content.text-center {
-  text-align: center; }
+  .box-content.text-left {
+    text-align: left; }
+  .box-content.margin {
+    margin: 30px;
+    padding: 30px; }
+  .box-content.text-center {
+    text-align: center; }
 
 .left-half, .right-half {
   width: 40%;
