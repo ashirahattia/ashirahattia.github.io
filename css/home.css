@@ -222,7 +222,7 @@ a.menu-item:hover, a.menu-item:active {
 
 /* Containers */
 .intro {
-  height: 75%;
+  min-height: 40%;
   text-align: center; }
 
 .castle {
