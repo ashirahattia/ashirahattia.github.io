@@ -213,13 +213,16 @@ a.menu-item:hover, a.menu-item:active {
 
 /* Header */
 .header {
-  min-height: 40%; }
+  min-height: 485px; }
 
 .title {
   width: 50%;
-  padding: 100px 0;
+  padding: 10% 0;
   margin: 0 auto;
   text-align: center; }
+  @media all and (max-width: 900px) {
+    .title {
+      padding: 100px 0; } }
 
 img {
   width: 100%;
