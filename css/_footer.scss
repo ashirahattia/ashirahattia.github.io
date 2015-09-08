@@ -13,6 +13,7 @@
 .social {
 	margin: $small;
 	width: 5%;
+	max-width: 40px;
 	@media all and (max-width: $mobile) {
 		width: 15%;
 	}

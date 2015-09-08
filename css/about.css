@@ -178,7 +178,8 @@ a.menu-item:hover, a.menu-item:active {
 
 .social {
   margin: 10px;
-  width: 5%; }
+  width: 5%;
+  max-width: 40px; }
   @media all and (max-width: 500px) {
     .social {
       width: 15%; } }
