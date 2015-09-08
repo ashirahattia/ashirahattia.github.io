@@ -114,8 +114,7 @@ a.button:hover, a.button:active {
   top: 0;
   right: 0;
   display: none;
-  text-align: center;
-  opacity: 0.95; }
+  text-align: center; }
 
 #menu-link-div {
   position: fixed;
