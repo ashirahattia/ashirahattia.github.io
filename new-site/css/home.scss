@@ -40,7 +40,7 @@
 }
 
 @mixin background-dimensions() {
-	background-size: 150%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	@media all and (max-width: $mobile) {
@@ -49,23 +49,23 @@
 }
 
 .shapeways {
-	background: URL("../images/shapeways.png");
+	background: URL("../images/shapeways.jpg");
 	@include background-dimensions();
 }
 
 .wonder {
-	background: URL("../images/wonder.png");
+	background: URL("../images/wonder.jpg");
 		@include background-dimensions();
 }
 
 .innod {
-	background: URL("../images/innod.png");
+	background: URL("../images/innod.jpg");
 	@include background-dimensions();
 
 }
 
 .lily-livered {
-	background: URL("../images/lily-livered.png");
+	background: URL("../images/lily-livered.jpg");
 	@include background-dimensions();
 	@media all and (max-width: $mobile) {
 		background-position: center center;
@@ -73,7 +73,7 @@
 }
 
 .other {
-	background: URL("../images/other.png");
+	background: URL("../images/other.jpg");
 	@include background-dimensions();
 	background-size: 100%;
 }

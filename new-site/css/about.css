@@ -114,7 +114,8 @@ a.button:hover, a.button:active {
   top: 0;
   right: 0;
   display: none;
-  text-align: center; }
+  text-align: center;
+  opacity: 0.95; }
 
 #menu-link-div {
   position: fixed;
@@ -176,6 +177,9 @@ a.menu-item:hover, a.menu-item:active {
 .social {
   margin: 10px;
   width: 5%; }
+  @media all and (max-width: 500px) {
+    .social {
+      width: 15%; } }
 
 /* Containers */
 .background {
@@ -279,19 +283,19 @@ a.menu-item:hover, a.menu-item:active {
 
 /* Specific Photos */
 .bookshelves {
-  background: URL("../about/images/bookshelves.png");
+  background: URL("../about/images/bookshelves.jpg");
   background-size: 100%; }
 
 .glasses {
-  background: URL("../about/images/glasses.png");
+  background: URL("../about/images/glasses.jpg");
   background-size: 100%; }
 
 .grass {
-  background: URL("../about/images/grass.png");
+  background: URL("../about/images/grass.jpg");
   background-size: 100%; }
 
 .sea {
-  background: URL("../about/images/sea.png");
+  background: URL("../about/images/sea.jpg");
   background-size: 100%; }
 
 /*# sourceMappingURL=about.css.map */

@@ -114,7 +114,8 @@ a.button:hover, a.button:active {
   top: 0;
   right: 0;
   display: none;
-  text-align: center; }
+  text-align: center;
+  opacity: 0.95; }
 
 #menu-link-div {
   position: fixed;
@@ -176,6 +177,9 @@ a.menu-item:hover, a.menu-item:active {
 .social {
   margin: 10px;
   width: 5%; }
+  @media all and (max-width: 500px) {
+    .social {
+      width: 15%; } }
 
 /* Containers */
 .background {
