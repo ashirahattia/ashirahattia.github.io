@@ -22,9 +22,12 @@
 }
 
 .box-content {
-	padding: $box-padding;
 	&.text-left {
 		text-align: left;
+	}
+	&.padding {
+		margin: $box-padding;
+		padding: $box-padding;
 	}
 	&.text-center {
 		text-align: center;
