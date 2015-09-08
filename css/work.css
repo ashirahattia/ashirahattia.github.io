@@ -89,7 +89,7 @@ a.button:link, a.button:visited {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #37393D;
-  padding: 15px;
+  padding: 10px 14px;
   border: 2px #37393D solid;
   display: block; }
 
