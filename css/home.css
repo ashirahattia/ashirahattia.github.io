@@ -172,7 +172,8 @@ a.menu-item:hover, a.menu-item:active {
   width: 100px;
   display: block;
   padding: 10px;
-  margin: auto; }
+  margin: auto;
+  border: none; }
   .cloud img {
     width: 100%;
     border: none; }
