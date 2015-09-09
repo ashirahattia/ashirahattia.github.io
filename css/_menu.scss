@@ -22,7 +22,7 @@
 }
 
 .menu-link {
-	padding: $small;
+	padding: $box-padding;
 	display: inline-block;
 	&.desktop {
 		@media all and (max-width: $tablet) {
@@ -81,7 +81,7 @@ a.menu-item:hover, a.menu-item:active {
 	position: absolute;
 	left: 0;
 	top: 0;
-	padding: $small;
+	padding: $box-padding;
 	z-index: 999;
 	img {
 		width: 100%;

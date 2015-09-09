@@ -127,7 +127,7 @@ a.button:hover, a.button:active {
       text-align: right; } }
 
 .menu-link {
-  padding: 10px;
+  padding: 30px;
   display: inline-block; }
   @media all and (max-width: 900px) {
     .menu-link.desktop {
@@ -173,7 +173,7 @@ a.menu-item:hover, a.menu-item:active {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 10px;
+  padding: 30px;
   z-index: 999; }
   .cloud img {
     width: 100%; }
