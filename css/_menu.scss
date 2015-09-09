@@ -22,7 +22,7 @@
 }
 
 .menu-link {
-	padding: $box-padding;
+	padding: $small;
 	display: inline-block;
 	&.desktop {
 		@media all and (max-width: $tablet) {

@@ -127,7 +127,7 @@ a.button:hover, a.button:active {
       text-align: right; } }
 
 .menu-link {
-  padding: 30px;
+  padding: 10px;
   display: inline-block; }
   @media all and (max-width: 900px) {
     .menu-link.desktop {
