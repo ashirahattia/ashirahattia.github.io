@@ -106,7 +106,7 @@ a.button:hover, a.button:active {
   a.button:hover.button-blue, a.button:active.button-blue {
     color: #7BB7B4; }
 
-/* Menu */
+/* Menu Link */
 #menu {
   width: 100%;
   height: 100%;
@@ -138,6 +138,7 @@ a.button:hover, a.button:active {
       .menu-link.mobile {
         display: inline-block; } }
 
+/* Menu */
 a.menu-icon {
   font-family: "Montserrat", sans-serif;
   color: #37393D; }
@@ -165,6 +166,17 @@ a.menu-item:hover, a.menu-item:active {
 .waypoint-pink, .waypoint-gray, .waypoint-yellow, .waypoint-blue {
   width: 100%;
   height: 0px; }
+
+/* Cloud */
+.cloud {
+  width: 75px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  z-index: 999; }
+  .cloud img {
+    width: 100%; }
 
 /* Footer */
 .footer {
