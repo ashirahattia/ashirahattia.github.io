@@ -169,12 +169,10 @@ a.menu-item:hover, a.menu-item:active {
 
 /* Cloud */
 .cloud {
-  width: 75px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 30px;
-  z-index: 999; }
+  width: 100px;
+  display: block;
+  padding: 10px;
+  margin: auto; }
   .cloud img {
     width: 100%; }
 

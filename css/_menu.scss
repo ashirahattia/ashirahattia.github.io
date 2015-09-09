@@ -77,12 +77,10 @@ a.menu-item:hover, a.menu-item:active {
 /* Cloud */
 
 .cloud {
-	width: 75px;
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding: $box-padding;
-	z-index: 999;
+	width: 100px;
+	display: block;
+	padding: $small;
+	margin: auto;
 	img {
 		width: 100%;
 	}
