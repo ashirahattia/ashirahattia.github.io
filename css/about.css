@@ -174,7 +174,8 @@ a.menu-item:hover, a.menu-item:active {
   padding: 10px;
   margin: auto; }
   .cloud img {
-    width: 100%; }
+    width: 100%;
+    border: none; }
 
 /* Footer */
 .footer {
