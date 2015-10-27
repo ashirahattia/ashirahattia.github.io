@@ -131,6 +131,7 @@ h3 {
 
 .content {
 	width: 50%;
+	max-width: 700px;
 	margin: auto;
 	@media all and (max-width: $tablet) {
 		width: 90%;
