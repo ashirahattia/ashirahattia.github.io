@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Etsy Design Internship Challenge">
+		<meta name="author" content="Angira Shirahatti">
+
+		<title>Travel to the Moon with Etsy</title>
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"></style>
+	</head>
+
+	<body>
+		<div class="container title">
+			<div class="title-content">
+				<h1 class="title-h1">Etsy on the Moon</h1>
+			</div>
+		</div>
+		<div class="container light-gray">
+			<div class="content">
+				<h1>Let's take handmade <br> where it's never gone before.</h1>
+				<p>
+					Community is Etsy’s heart and soul. That’s why, for our 10th anniversary, we want to take our global community right out of this world. Join us as, for the first time ever, we take handmade to the moon!	
+				</p>
+			</div>
+		</div>
+		<div class="container white">
+			<div id="register" class="content">
+				<h1>Sign up for the voyage</h1>
+				<p>
+					Tell us what Etsy means to you, and register for the chance to help take handmade to outer space!
+				</p>
+				<p>
+					* All fields are required
+				</p>
+				<form id="registration-form" onsubmit="return validateForm()">
+					<fieldset>
+						<div class="grid">
+							<div class="col-1-2">
+								<label for="first-name">First Name:</label>
+								<br><input type="text" id="first-name" name="first-name" class="grid">
+							</div>
+							<div class="col-1-2">
+								<label for="last-name">Last Name:</label> 
+								<br><input type="text" id="last-name" name="last-name" class="grid">
+							</span>
+						</div>
+						<div>
+							<label for="birthday">Birthday (mm/dd/yyyy):</label>
+							<br><input type="text" id="birthday" name="birthday">
+						</div>
+						<div>
+							<label for="question">Why do you love Etsy?</label>
+							<br><input type="text" id="question" id="question" name="question" class="grid">
+							<div id='characters-remaining'>Remaining characters : 140</span>
+						
+						</div>
+						<div class="center">
+							<button class="button" type="submit" value="Submit">Submit</button>
+							<p class="small">
+								If you are selected for the trip, you will need to provide
+								additional information including medical records, and participate
+								in safety and procedural training.
+							</p>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<div id="thankyou" class="content">
+				<h1>Thank you!</h1>
+				<p>
+					We’ve received your registration. You’ll receive an email if you are selected for the trip. 
+				</p>
+				<p>
+					In the mean time, why not check out some space-themed products made by your fellow Etsy Users?
+				</p>
+				<br><br>
+				<div class="center">
+					<h2>A Trip to the Moon</h2>
+					<h3>Products inspired by outer space</h3>
+					<br>
+					<div class="grid">
+						<div class="col-1-3">
+							<a href="#"><img src="img/item1.png"></a>
+						</div>
+						<div class="col-1-3">
+							<a href="#"><img src="img/item2.png"></a>
+						</div>
+						<div class="col-1-3">
+							<a href="#"><img src="img/item3.png"></a>
+						</div>
+
+					</div>
+					<div class="grid">
+						<div class="col-1-3">
+							<a href="#"><img src="img/item4.png"></a>
+						</div>
+						<div class="col-1-3">
+							<a href="#"><img src="img/item5.png"></a>
+						</div>
+						<div class="col-1-3">
+							<a href="#"><img src="img/item6.png"></a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JQuery -->
+		<script src="jquery-1.11.2.min.js"></script>
+		<script src="scripts.js"></script>
+
+	</body>
+	
+</html>
