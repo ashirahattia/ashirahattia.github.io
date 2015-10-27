@@ -28,7 +28,7 @@ function validateForm() {
     	);
 
     var validQuestion = addErrorClass(
-    		$('#registration-form').find('input[name="question"]'),
+    		$('#registration-form').find('textarea[name="question"]'),
     		$('#registration-form').find('label[for="question"]')
     	);
 
