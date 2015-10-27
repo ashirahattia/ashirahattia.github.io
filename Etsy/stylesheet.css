@@ -19,11 +19,12 @@ form, fieldset {
   margin: 0;
   padding: 0; }
 
-input {
-  height: 2.5em;
+input, textarea {
+  height: 2em;
   border-radius: 3px;
   border: 1px #E1E3DF solid;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 1em; }
 
 img {
   width: 100%; }
@@ -46,7 +47,6 @@ h1 {
   h1.title-h1 {
     color: #FBFBFA;
     font-size: 2.5em;
-    text-shadow: 2px 2px #222222;
     padding: none; }
 
 h2 {
@@ -73,8 +73,13 @@ h3 {
   width: 100%;
   padding: 60px 0px; }
 
+.clear {
+  height: 40%; }
+
 .title {
-  height: 60%; }
+  padding: 20px;
+  width: 100%;
+  text-align: center; }
 
 .light-gray {
   background-color: #F5F5F1;
@@ -82,6 +87,9 @@ h3 {
 
 .white {
   background-color: #FFF; }
+
+.orange {
+  background-color: #F56400; }
 
 .content {
   width: 50%;
@@ -116,7 +124,7 @@ h3 {
 
 .small {
   font-size: 0.7em;
-  line-height: 1em; }
+  line-height: 1.4em; }
 
 #question {
   margin-bottom: 0px; }

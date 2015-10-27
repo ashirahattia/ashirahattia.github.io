@@ -42,11 +42,12 @@ form, fieldset {
 	padding: 0;
 }
 
-input {
-	height: 2.5em;
+input, textarea {
+	height: 2em;
 	border-radius: 3px;
 	border: 1px $med-gray solid;
 	margin-bottom: 10px;
+	font-size: 1em;
 }
 
 img {
@@ -72,7 +73,6 @@ h1 {
 	&.title-h1 {
 		color: $lightest-gray;
 		font-size: 2.5em;
-		text-shadow: 2px 2px $darkest-gray;
 		padding: none;
 	}
 }
@@ -106,8 +106,14 @@ h3 {
 	padding: 60px 0px;
 }
 
+.clear {
+	height: 40%;
+}
+
 .title {
-	height: 60%;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
 }
 
 .light-gray {
@@ -117,6 +123,10 @@ h3 {
 
 .white {
 	background-color: #FFF;
+}
+
+.orange {
+	background-color: $orange;
 }
 
 .content {
@@ -160,7 +170,7 @@ h3 {
 
 .small {
 	font-size: 0.7em;
-	line-height: 1em;
+	line-height: 1.4em;
 }
 
 #question {
