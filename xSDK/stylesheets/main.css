@@ -86,7 +86,7 @@ p {
 	max-width: 1000px;
 	padding: 50px;
 	padding-top: 150px;
-	float: right;
+	margin: 0 auto;
 }
 
 .sidebar {
