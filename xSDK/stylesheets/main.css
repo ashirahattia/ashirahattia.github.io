@@ -1,0 +1,163 @@
+/* General */
+@import url(https://fonts.googleapis.com/css?family=Lato:700,700italic,300,300italic,900,900italic);
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	max-width: 100%;
+}
+
+a:LINK, a:VISITED {
+	text-decoration: none;
+	color: #E15400;
+}
+
+a:HOVER {
+	color: #000;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 900;
+	font-size: 3em;
+	letter-spacing: 7px;
+	color: #E15400;
+}
+
+h2 {
+	margin: 0;
+	line-height: 1.5em;
+	letter-spacing: 3px;
+}
+
+.orange {
+	color: #E15400;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+
+/* Navigation */
+.nav-link:LINK, .nav-link:VISITED, .sidebar-nav:LINK, .sidebar-nav:VISITED {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	color: #000;
+}
+
+.nav-link:LINK, .nav-link:VISITED {
+	padding: 0px 10px;
+}
+
+.selected:LINK, .selected:VISITED {
+	color: #E15400;
+}
+
+.sitemap-link:LINK, .sitemap-link:VISITED {
+	color: #000;
+}
+
+.nav-link:HOVER, .sitemap-link:HOVER, .sidebar-nav:HOVER {
+	color: #E15400;
+}
+
+.sidebar-nav {
+	display: block;
+	padding: 0px 0px 20px 0px;
+}
+
+
+/* Layout */
+.navigation-container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #FFF;
+}
+
+.navigation {
+	text-align: right;
+	padding: 20px;
+}
+
+.content-container {
+	max-width: 1000px;
+	padding: 50px;
+	padding-top: 150px;
+	float: right;
+}
+
+.sidebar {
+	width: 200px;
+	min-height: 400px;
+    float: left;
+    margin: 10px 0px;
+    padding: 0px 40px;
+    border-right: 2px #000 solid;
+    text-align: right;
+}
+
+.content {
+	max-width: 600px;
+	float: right;
+	padding: 0px 50px;
+}
+
+/* Footer */
+.footer {
+	max-width: 600px;
+	text-align: left;
+	margin-top: 50px;
+	padding-top: 30px;
+	border-top: 1px #000 solid;
+	text-align: left;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+td {
+	padding-right: 40px;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Mobile */
+@media all and (max-width: 1090px) {
+	.sidebar {
+		width: 80%;
+		max-width: 700px;
+		border-right: none;
+		border-bottom: 2px #000 solid;
+		text-align: left;
+		min-height: 0px;
+		margin: 20px;
+		padding: 0px;
+	}
+
+	.content {
+		width: 100%;
+		max-width: 700px;
+		float: left;
+		margin: 20px;
+		padding: 0px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.navigation {
+		font-size: 0.5em;
+    	padding: 10px 5px;
+    	text-align: center;
+	}
+	.content-container {
+		padding: 10px;
+		padding-top: 50px;
+		width: 80%;
+		margin: auto;
+		float: left;
+	}
+}
+
+
