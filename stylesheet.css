@@ -1,0 +1,116 @@
+/* Font Families */
+/* Colors */
+/* Breakpoints */
+/* Typography */
+body {
+  font-family: "Aileron", "Helvetica", sans-serif;
+  color: #222222;
+  height: 100%; }
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4em;
+  margin: 0px; }
+  @media all and (max-width: 500px) {
+    h1 {
+      font-size: 2.5em; } }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 1.2em;
+  margin: 10px 0px; }
+
+p {
+  line-height: 1.8em; }
+
+a:link, a:visited {
+  color: #576BB2;
+  font-weight: 900;
+  text-decoration: none; }
+a:active, a:hover {
+  color: #3A4F89; }
+
+/* Sidebar styling */
+ul.sidebar-ul {
+  padding: 0px;
+  margin: 0px; }
+  @media all and (max-width: 1000px) {
+    ul.sidebar-ul {
+      margin: auto; } }
+
+li.sidebar-li {
+  list-style: none;
+  display: block;
+  border: 1px #222222 solid;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: center; }
+  @media all and (max-width: 1000px) {
+    li.sidebar-li {
+      display: inline-block;
+      width: 200px;
+      margin: 10px; } }
+  @media all and (max-width: 850px) {
+    li.sidebar-li {
+      display: block;
+      width: 100%;
+      margin: 10px 0px; } }
+
+a.nav-link:link, a.nav-link:visited {
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-size: 0.8em;
+  padding: 5px 0px; }
+
+a.nav-link:hover, a.nav-link:active {
+  background-color: #FAE80B; }
+
+/* Containers */
+.container {
+  margin: 40px; }
+  @media all and (max-width: 850px) {
+    .container {
+      margin: 20px; } }
+
+.content {
+  position: relative;
+  margin-top: 20px; }
+
+.header {
+  max-height: 150px; }
+  @media all and (max-width: 850px) {
+    .header {
+      width: 90%;
+      height: auto; } }
+
+.sidebar {
+  width: 200px;
+  height: 300px;
+  padding-right: 30px;
+  border-right: 1px #222222 solid;
+  position: absolute;
+  left: 0px;
+  top: 20px; }
+  @media all and (max-width: 1000px) {
+    .sidebar {
+      position: relative;
+      height: auto;
+      border: none;
+      width: auto;
+      margin-bottom: 40px; } }
+
+.primary-content {
+  max-width: 700px;
+  padding: 0px 40px 0px 20px;
+  margin-left: 240px; }
+  @media all and (max-width: 1000px) {
+    .primary-content {
+      margin-left: 0;
+      padding: 20px; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
