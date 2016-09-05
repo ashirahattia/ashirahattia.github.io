@@ -65,7 +65,7 @@ a.nav-link:hover, a.nav-link:active {
 /* Containers */
 .content {
   margin-top: 20%;
-  margin-left: 25%; }
+  margin-left: 15%; }
   @media all and (max-width: 960px) {
     .content {
       margin-left: 10px; } }
