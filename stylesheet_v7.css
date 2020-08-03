@@ -178,7 +178,18 @@ body {
 			letter-spacing: -6px;
 			font-weight: 400;
 			margin-bottom: 24px;
+
 		}	
+
+		@media only screen and (max-width: 600px) {
+				h1 {
+					font-family: 'Georgia', serif;
+					font-weight: 700;
+					letter-spacing: -1px;
+					font-style: italic;
+				}
+
+			}
 
 		h2 {
 			font-family: 'Yeseva One', serif;
@@ -188,6 +199,16 @@ body {
 			font-weight: 400;
 			margin: 0px 0px 56px 0px;
 		}
+
+		@media only screen and (max-width: 600px) {
+				h2 {
+					font-family: 'Georgia', serif;
+					font-weight: 700;
+					letter-spacing: -1px;
+					font-style: italic;
+				}
+
+			}
 
 
 		h3 {
