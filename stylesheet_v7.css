@@ -175,7 +175,7 @@ body {
 			font-family: 'Yeseva One', serif;
 			font-size: 100px;
 			line-height: 115px;
-			letter-spacing: 2px;
+			letter-spacing: -6px;
 			font-weight: 400;
 			margin-bottom: 24px;
 		}	
@@ -184,7 +184,7 @@ body {
 			font-family: 'Yeseva One', serif;
 			font-size: 72px;
 			line-height: 72px;
-			letter-spacing: 2px;
+			letter-spacing: -5px;
 			font-weight: 400;
 			margin: 0px 0px 56px 0px;
 		}
@@ -262,15 +262,11 @@ body {
 		a:link::after, a:visited::after {
 		    display:block;
 		    content: '';
-		    border-bottom: 3px solid; 
+		    border-bottom: 2px solid; 
 		    height: 6px; 
 		    transform: scaleX(0.3);
 		    transition: transform 250ms ease-in-out;
 		    transform-origin: 0% 50%;
-		}
-
-		a:hover, a:active {
-			background-color: #FFE6A1;
 		}
 
 		a:hover::after {
